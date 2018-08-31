@@ -181,8 +181,10 @@ class TicTacToe
       puts "Congratulations #{winner}!"
     else 
       puts "Cat's game!"
+    end 
   end 
-end 
+end
+
 
 #def position_taken?(board, index)
 #  !(board[index].nil? || board[index] == " ")
